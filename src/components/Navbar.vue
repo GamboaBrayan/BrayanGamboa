@@ -26,6 +26,14 @@ export default {
     closeMenu() {
       this.isMenuOpen = false
     }
+    downloadCV() {
+      const link = document.createElement('a')
+      link.href = './CV-Brayan-Gamboa.pdf'
+      link.download = 'CV-Brayan-Gamboa.pdf'
+      document.body.appendChild(link)
+      link.click()
+      document.body.removeChild(link)
+    }
   }
 }
 </script>
