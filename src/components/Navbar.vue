@@ -5,7 +5,7 @@
         <li><a href="#Proyectos">Proyectos</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#contacto">Contacto</a></li>
-        <li><a href="/public/cv/CV - Brayan Gamboa.pdf" download class="cv-download-btn" title="Descargar CV">CV</a></li>
+        <li><a href="/public/cv/Brayan Gamboa.pdf" download class="cv-download-btn" title="Descargar CV">CV</a></li>
         </ul>
 
     </nav>
