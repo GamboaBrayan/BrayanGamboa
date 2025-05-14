@@ -12,7 +12,7 @@ const descipcion = "Soy un estudiante de la carrera de Ingeniería de Software e
         <p>{{ descipcion }}</p>
       </div>
       <div class="image-content">
-        <img src="../assets/me.png" alt="Foto perfil" class="foto-perfil">
+        <img src="../assets/mee.png" alt="Foto perfil" class="foto-perfil">
         <div class="social-icons">
           <a href="https://github.com/GamboaBrayan" target="_blank" rel="noopener noreferrer">
             <i class="fab fa-github"></i>
