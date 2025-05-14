@@ -5,7 +5,8 @@
         <li><a href="#Proyectos">Proyectos</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
         <li><a href="#contacto">Contacto</a></li>
-        <li><a href="/public/BrayanGamboa.pdf" download="CV-Brayan-Gamboa.pdf" class="cv-download-btn" title="Descargar CV">CV</a></li>
+        <li><a 
+          href="https://drive.google.com/file/d/1c94BJC9JX3I-wkzMBpqDnU2NOa6do8tV/view?usp=sharing" target="_blank"class="cv-download-btn"title="Descargar CV desde Google Drive">CV</a></li>
         </ul>
 
     </nav>
@@ -25,14 +26,6 @@ export default {
     },
     closeMenu() {
       this.isMenuOpen = false
-    }
-    downloadCV() {
-      const link = document.createElement('a')
-      link.href = '/BrayanGamboa.pdf' // Ruta al archivo PDF
-      link.download = 'BrayanGamboa.pdf'
-      document.body.appendChild(link)
-      link.click()
-      document.body.removeChild(link)
     }
   }
 }
