@@ -28,8 +28,8 @@ export default {
     }
     downloadCV() {
       const link = document.createElement('a')
-      link.href = './CV-Brayan-Gamboa.pdf'
-      link.download = 'CV-Brayan-Gamboa.pdf'
+      link.href = '/BrayanGamboa.pdf' // Ruta al archivo PDF
+      link.download = 'BrayanGamboa.pdf'
       document.body.appendChild(link)
       link.click()
       document.body.removeChild(link)
